@@ -16,7 +16,7 @@ const Header = () => {
     return (
         <div className='flex flex-col justify-center items-center gap-2 py-3'>
             <div className='logo'><img src={logo} alt="" /> </div>
-            <p className='text-lg text-gray-500'>Journalism Without Fear or Favour</p>
+            <p className='text-lg text-gray-400'>Journalism Without Fear or Favour</p>
             <p>{currentTime}</p>
         </div>
     );
